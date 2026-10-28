@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Anti-Procrastinación Gato Chancano",
+  "version": "1.0",
+  "description": "Bloqueador web que invoca al gato chancano.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "http://127.0.0.1:5000/*",
+    "*://*.youtube.com/*",
+    "*://*.tiktok.com/*",
+    "*://*.instagram.com/*",
+    "*://*.twitter.com/*",
+    "*://*.x.com/*",
+    "*://*.discord.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,75 @@
+# =============================================================================
+# .gitignore - AntiProcastinador
+# Proyecto: App anti-procrastinación (Python + Extensión Chrome)
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+*.egg
+dist/
+build/
+*.spec
+eggs/
+.installed.cfg
+*.egg-link
+*.so
+
+# --- PyInstaller / AntiProcastinador específico ---
+AntiProcastinador.spec
+build/
+build_fixed/
+dist/
+AntiProcastinador.exe
+
+# --- Entorno / variables de secretos ---
+.env
+.env.local
+.env.*.local
+secrets/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Extensiones de navegador (builds empaquetados) ---
+extension/*.zip
+extension/*.crx
+
+# --- Otros ---
+.cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytest_cache/
+# =============================================================================
